@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maicito Taller - Cursos de cocina</title>
+  
+    <!-- Icono de la página -->
+    <link rel="icon" href="resources/logoMaicito.png" type="image/png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ECD5BF;">
+        <div class="container" style="background-color: #ECD5BF;">
+            <a href="#" aria-label="Inicio">
+                <img src="resources/logoMaicito.png" alt="Maicito Taller" width="175" height="auto" class="d-inline-block align-text-top">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" style="background-color: #ECD5BF;">
+                <ul class="navbar-nav ms-auto"> <!-- Añadido 'ms-auto' para alinear los enlaces a la derecha -->
+                    <li class="nav-item"> <!-- Añadido 'nav-item' -->
+                        <a class="nav-link custom-btn" href="#acerca-de-nosotros">Acerca de Nosotros</a>
+                    </li>
+                    <li class="nav-item"> <!-- Añadido 'nav-item' -->
+                        <a class="nav-link custom-btn" href="#datos-adicionales">Datos Adicionales</a>
+                    </li>
+                    <li class="nav-item"> <!-- Añadido 'nav-item' -->
+                        <a class="nav-link custom-btn" href="#registro">Registro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+      
+    <div class="container-fluid" style="background-color:#ECD5BF;">
+
+        <section class="container text-center mt-5 mb-5 texto-automatico">
+            <h1 class="main-title writing-text" id="writingText">
+                
+            </h1>            
+        </section>
+
+        <section class="container text-center mt-5 mb-5">
+            <h1 class="main-title" style="font-weight:600;">¡Bienvenidos a Maicito Taller!</h1>
+            <p class="main-text">Descubre la magia del maíz en nuestros cursos de cocina</p>
+        </section>
+
+        <section>
+            <div class="parent">
+                <div class="div1">  
+                    <img src="resources/mitos-tamales.png" alt="Maicito Taller" class="image1"> 
+                </div>
+                <div class="div2">  
+                    <img src="resources/mito-maizvariado.jpg" alt="Maicito Taller" class="image2">
+                </div>
+                <div class="div3">  
+                    <img src="resources/mitos-maiz-amarillo.jpg" alt="Maicito Taller" class="image3">
+                </div>
+
+            </div>
+        </section>
+        
+
+        <section id="acerca-de-nosotros" class="container py-5">
+            <h1 class="text-center mb-4" style="font-weight:600;">Acerca de nosotros</h1>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="p-5 rounded-3 mb-3 mt-3" style="background-color: #914531;">
+                  <p class="text-white mt-3" style="font-size: 1.5rem; font-weight: 600;">
+                    ¡Te invitamos a descubrir la magia del maíz en nuestros cursos de cocina!
+                    <br>
+                    <br>
+                    ¡Descubre la esencia del maíz en nuestros cursos de cocina! Aprende a crear deliciosos platillos con este grano sagrado, símbolo de la historia, cultura y tradiciones de México.
+                    <br>
+                    <br>
+                    ¡Vive una experiencia culinaria que celebra la identidad de un pueblo y su pasión por la buena cocina!
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 mt-5">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="resources/mito-bowlarroz.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="resources/mitos-maizverde.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="resources/maiz-mano.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+        </section>
+
+
+        <section id="datos-adicionales" class="py-5 mt-3" style="background-color:#F5EBDD; border-radius:24px;">
+            <div class="container">
+                <h2 class="text-center mb-5" style="color:#5A3E36; font-weight:600;">Datos adicionales del Maíz</h2>
+                <div class="row g-4">
+                    <!-- Historia del Maíz -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img src="resources/cultivo_del_maiz.jpg" class="card-img-top" alt="Historia del Maíz" style="height:200px; object-fit:cover;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:#5A3E36; font-weight:600;">Historia del Maíz</h5>
+                                <p class="card-text">Descubre los orígenes del maíz, que se cultivó por primera vez en Mesoamérica hace más de 9,000 años. Este grano ha sido fundamental en la civilización mexicana, influyendo en su economía, dieta y cultura. Desde los pueblos indígenas que lo veneraban como un regalo divino, hasta su papel en la actualidad, el maíz ha sido un símbolo de identidad y resistencia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Variedades de Maíz -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img src="resources/historia-maiz.jpg " class="card-img-top" alt="Variedades de Maíz" style="height:200px; object-fit:cover;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:#5A3E36; font-weight:600;">Variedades de Maíz</h5>
+                                <p class="card-text">Explora las diferentes variedades de maíz que existen, como el maíz amarillo, blanco, azul y morado. Cada uno tiene sus usos culinarios y culturales: el maíz azul, por ejemplo, es tradicional en el Estado de Oaxaca para hacer tortillas y otros platillos. Las distintas variedades no solo aportan sabores únicos, sino también nutrientes y beneficios para la salud.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Beneficios Nutricionales -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img src="resources/mito-maiz-grano.jpg" class="card-img-top" alt="Beneficios Nutricionales" style="height:200px; object-fit:cover;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:#5A3E36; font-weight:600;">Beneficios Nutricionales</h5>
+                                <p class="card-text">Conoce los múltiples beneficios que el maíz aporta a la salud: es rico en fibra, vitaminas B, antioxidantes y minerales. Además, es una fuente importante de energía y ayuda en la digestión. Incorporar maíz en tu dieta puede contribuir a una buena salud cardiovascular y a un peso saludable.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Importancia Cultural -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 shadow-sm">
+                            <img src="resources/mito-mole.jpg" class="card-img-top" alt="Importancia Cultural" style="height:200px; object-fit:cover;">
+                            <div class="card-body">
+                                <h5 class="card-title" style="color:#5A3E36; font-weight:600;">Importancia Cultural</h5>
+                                <p class="card-text">Descubre cómo el maíz está entrelazado en las tradiciones y festividades mexicanas, como el Día de Muertos y la celebración de la Cuaresma. Su presencia en la gastronomía, desde las tortillas hasta los tamales, refleja su significado cultural. Además, es un símbolo de la diversidad y riqueza cultural de México, representando la conexión de las comunidades con sus raíces.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="registro" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4" style="color:#5A3E36; font-weight:600;">Regístrate para nuestros Cursos</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8 w-80">
+                        <form id="registroForm" class="p-4" style="background-color: #F5EBDD; border-radius: 10px;">
+                            <!-- Nombre Completo -->
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label" style="color:#5A3E36; font-weight:600;">Nombre Completo</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
+                            </div>
+                            
+                            <!-- Correo Electrónico -->
+                            <div class="mb-3">
+                                <label for="email" class="form-label" style="color:#5A3E36; font-weight:600;">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+                            </div>
+                            
+                            <!-- Botón de Registro -->
+                            <div class="d-grid">
+                                <button type="submit" class="custom-btn">Registrarse</button>
+                            </div>
+                        </form>
+                        <div id="mensaje" class="mt-3"></div> <!-- Contenedor para mensajes -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <button id="backToTop" class="back-to-top" aria-label="Volver al inicio">
+        ↑
+    </button>
+    
+
+    <!-- Scripts de js -->
+    <script src="scripts/textoautomatico.js"></script>
+    <script src="scripts/ajax_peticiones.js"></script>
+    <script src="scripts/botonVolverArriba.js"></script>
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
